@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: rgb(224, 221, 191);
+}
+.header{
+    height: 120px;
+    background-color: rgb(165, 69, 55);
+    border-bottom: solid black 1px;
+
+}
+
+
+.header-div{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+.logo {
+    width: 100px;
+    margin-right: 35px;
+    
+}
+
+
+
+.nav-div {
+    display: flex;
+    width: 200px;
+    align-items: center; 
+    justify-content: center;   
+}
+
+.logo-div{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.nav-meny{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-meny a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+.nav-meny a:hover{
+    text-decoration: underline;
+}
+
+.h1-h2-div{
+    text-align: center;
+    color: black;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+
+.main{
+    background-color: rgb(224, 221, 191);
+}
+
+.aside{
+    height: 200px;
+    display: flex;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(224, 221, 191);
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    justify-content: center;
+    
+}
+
+.footer{
+    position: relative;
+    text-align: center;
+    background-color: rgb(165, 69, 55);
+    height: 50px;
+    
+}
+
+.small-footer{
+    position: absolute;
+    top:22px;
+    right: 0px;
+    left: 0px;
+}
+.b-div{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    align-items: center;
+}
+
+.b{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: cursive;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.photo-divs{
+    margin: 10px;
+    
+    text-align: center;
+}
+
+.mat{
+    height: 300px;
+    width: 300px;
+}
+
+.photo-divs a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-style: oblique;
+}
+.photo-divs a:hover {
+    text-decoration: underline;
+    
+}
+
+.b-div a {
+    text-decoration: none;
+}
+.b-div a:hover{
+    text-decoration: underline whitesmoke;
+}
+
+.h4-div{
+    display: inline-block;
+    justify-content: center;
+    
+}
+.h4-div .p{
+    margin-right: 25%;
+    margin-left: 25%;
+    line-height: 1.5em;
+    border-bottom: solid black 1px;
+    
+}
+.h4, .p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* parmesan style */
+
+.main-parmesan {
+    height: 600px;
+}
+.main-parmesan-div{
+    height: 600px;
+    position: relative;
+}
+.photo-parm{
+    height: 300px;
+}
+.ingred-instru{
+    
+    display: inline-flex;
+    height: 250px;
+    width: 500px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 50%;
+    margin-left: 10px;
+}
+
+.ingred-instru li{
+    margin-top: 30px;
+}
+.instru{
+    border-left: solid black 1px;
+}
+
+.photo-parm-div{
+    position: absolute;
+    right: 10px;
+    bottom: 45%;
+}
+
+.fun {
+    background-color: rgba(180, 226, 226, 0.945);
+    position: absolute;
+    height: 100px;
+    width: 170px;
+    border: solid black 1px;
+    text-align: center;
+    bottom: 80px;
+    left: 18%;
+    
+}
+.fun h3, p {
+    color: rgb(58, 42, 42);
+    margin-bottom: 3px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fun h3{
+    text-decoration: underline;
+}
+
+/* style tomat */
+
+.photo-tomat{
+    width: 350px;
+    height: 350px;
+}
+
+.photo-tomat-div{
+    position: absolute;
+    right: 10px;
+    bottom: 35%;
+}
+
+.photo-kött{
+    width: 350px;
+    height: 350px;
+}
+
+/* liknade link parm */
+.liknade-link{
+    position: absolute;
+    bottom: 130px;
+    right: 80px;
+}
+
+.liknade-link, .liknade-link-tomat, .liknade-link-kött h4, a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* liknade link tomat */
+.liknade-link-tomat{
+    position: absolute;
+    bottom: 100px;
+    right: 70px;
+}
+
+.liknade-link-kött{
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+}
+
+
+
+
+
+
+
+
